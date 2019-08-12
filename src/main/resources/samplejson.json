@@ -1,170 +1,69 @@
-[
-  {
-    "make": "Audi",
-    "model": "A7",
-    "vin": "09AGHY64352JITEG98K",
-    "metadata" : {
-      "Color" : "Black",
-      "Notes" : "Scratches on the front side of the car"
+{
+
+  "Car": [
+    {
+      "make": "Audi",
+      "model": "A7",
+      "vin": "09AGHY64352JITEG98K",
+      "metadata": {
+        "Color": "Black",
+        "Notes": "Scratches on the front side of the car"
+      },
+      "perdayrent": {
+        "Price": 140,
+        "Discount": 15
+      },
+      "metrics": {
+        "yoymaintenancecost": 2190.76,
+        "depreciation": 2256.43,
+        "rentalcount": {
+          "lastweek": 4,
+          "yeartodate": 221
+        }
+      }
     },
-    "perdayrent" : {
-      "Price" : 140,
-      "Discount" : 15
+    {
+      "make": "Tesla",
+      "model": "Model 3",
+      "vin": "09AGHY64352JITEG90K",
+      "metadata": {
+        "Color": "Blue",
+        "Notes": "Mint condition"
+      },
+      "perdayrent": {
+        "Price": 200,
+        "Discount": 11
+      },
+      "metrics": {
+        "yoymaintenancecost": 2500,
+        "depreciation": 2000,
+        "rentalcount": {
+          "lastweek": 5,
+          "yeartodate": 200
+        }
+      }
     },
-    "metrics" : {
-      "yoymaintenancecost" : 2190.76,
-      "depreciation": 2256.43,
-      "rentalcount" : {
-        "lastweek" : 4,
-        "yeartodate" : 221
+    {
+      "make": "Tesla",
+      "model": "Model S",
+      "vin": "09AGHY64352JITEG91KS",
+      "metadata": {
+        "Color": "Blue",
+        "Notes": "Scratches on the right side front door"
+      },
+      "perdayrent": {
+        "Price": 300,
+        "Discount": 8
+      },
+      "metrics": {
+        "yoymaintenancecost": 3400.76,
+        "depreciation": 2890.43,
+        "rentalcount": {
+          "lastweek": 1,
+          "yeartodate": 134
+        }
       }
     }
-  },
-  {
-    "make": "BMW",
-    "model": "328i",
-    "vin": "09AGHY64352JITEG99K",
-    "metadata": {
-      "Color": "Blue",
-      "Notes": "Mint condition"
-    },
-    "perdayrent": {
-      "Price": 210,
-      "Discount": 10
-    },
-    "metrics": {
-      "yoymaintenancecost": 2190.76,
-      "depreciation": 2156.43,
-      "rentalcount": {
-        "lastweek": 3,
-        "yeartodate": 200
-      }
-    }
-  },
-  {
-    "make": "Tesla",
-    "model": "Model 3",
-    "vin": "09AGHY64352JITEG97K",
-    "metadata": {
-      "Color": "Blue",
-      "Notes": "Standard Range"
-    },
-    "perdayrent": {
-      "Price": 250,
-      "Discount": 9
-    },
-    "metrics": {
-      "yoymaintenancecost": 150,
-      "depreciation": 500,
-      "rentalcount": {
-        "lastweek": 5,
-        "yeartodate": 500
-      }
-    }
-  },
-  {
-    "make": "Mercedes",
-    "model": "C250",
-    "vin": "09AGHY64352JITEG96K",
-    "metadata": {
-      "Color": "Silver",
-      "Notes": "Scratches in the rear bumper"
-    },
-    "perdayrent": {
-      "Price": 300,
-      "Discount": 25
-    },
-    "metrics": {
-      "yoymaintenancecost": 3000,
-      "depreciation": 900,
-      "rentalcount": {
-        "lastweek": 6,
-        "yeartodate": 50
-      }
-    }
-  },
-  {
-    "make": "Tesla",
-    "model": "Model S",
-    "vin": "09AGHY64352JITEG95K",
-    "metadata": {
-      "Color": "Black",
-      "Notes": "Long Range"
-    },
-    "perdayrent": {
-      "Price": 350,
-      "Discount": 15
-    },
-    "metrics": {
-      "yoymaintenancecost": 180,
-      "depreciation": 1200,
-      "rentalcount": {
-        "lastweek": 8,
-        "yeartodate": 120
-      }
-    }
-  },
-  {
-    "make": "Tesla",
-    "model": "Model X",
-    "vin": "09AGHY64352JITEG92K",
-    "metadata": {
-      "Color": "Blue",
-      "Notes": "Clean and Fresh"
-    },
-    "perdayrent": {
-      "Price": 330,
-      "Discount": 14
-    },
-    "metrics": {
-      "yoymaintenancecost": 2000,
-      "depreciation": 1700,
-      "rentalcount": {
-        "lastweek": 4,
-        "yeartodate": 200
-      }
-    }
-  },
-  {
-    "make": "Honda",
-    "model": "Accord",
-    "vin": "09AGHY64352JITEG94K",
-    "metadata": {
-      "Color": "White",
-      "Notes": "Minor scratches in wind shield"
-    },
-    "perdayrent": {
-      "Price": 70,
-      "Discount": 5
-    },
-    "metrics": {
-      "yoymaintenancecost": 1000,
-      "depreciation": 250,
-      "rentalcount": {
-        "lastweek": 4,
-        "yeartodate": 280
-      }
-    }
-  },
-  {
-    "make": "Toyota",
-    "model": "Sienna",
-    "vin": "09AGHY64352JITEG93K",
-    "metadata": {
-      "Color": "Silver",
-      "Notes": "Family friendly"
-    },
-    "perdayrent": {
-      "Price": 120,
-      "Discount": 2
-    },
-    "metrics": {
-      "yoymaintenancecost": 900,
-      "depreciation": 1400,
-      "rentalcount": {
-        "lastweek": 4,
-        "yeartodate": 330
-      }
-    }
-  }
-]
+  ]
+
+}
